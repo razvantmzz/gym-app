@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/container"
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <View
+        android:id="@+id/decoratorCircle"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/round_image_form"
+        android:layout_centerVertical="true"/>
+    <View
+        android:id="@+id/decoratorVerticalBar"
+        android:layout_width="2dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="15dp"
+        android:background="@color/table_decorations_active"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/decoratorCircle"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/schedule_entry_hour_intervalTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="46dp"
+            android:textColor="@color/om_red"
+            android:layout_marginTop="6dp"
+            android:textSize="12sp"
+            android:text="_08:30 - _13:00"/>
+        <EditText
+            android:id="@+id/scheduleEntryDetailsTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:layout_marginEnd="46dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:textSize="14sp"
+            android:layout_below="@+id/schedule_entry_hour_intervalTv"
+            android:hint="@string/whatWillHappen"/>
+        <ImageView
+            android:id="@+id/deleteImageView"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_margin="6dp"
+            android:visibility="invisible"
+            android:tint="@color/om_image_resource"
+            android:src="@drawable/ic_delete"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

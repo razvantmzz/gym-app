@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    style="@style/PrimaryToolbar">
+
+    <ImageButton
+        android:id="@+id/btn_filter"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        style="@style/PrimaryImageBtn"
+        android:src="@drawable/ic_filter"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        style="@style/FilterBackground"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="@dimen/default_padding"
+        android:layout_toEndOf="@+id/btn_filter">
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            style="@style/FilterImage"
+            android:layout_marginStart="10dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_search"/>
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/FilterEditText"
+            android:layout_marginStart="10dp"
+            android:textSize="12sp"
+            android:hint="@string/search_hint"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/iv_search"/>
+
+    </RelativeLayout>
+</RelativeLayout>

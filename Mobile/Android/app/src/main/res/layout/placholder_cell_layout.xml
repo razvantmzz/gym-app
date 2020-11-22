@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="12dp">
+<!--    <View-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:background="@color/placeholder"/>-->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/thumbnail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="@color/placeholder"
+        app:cardCornerRadius="25dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:orientation="vertical"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            app:cardBackgroundColor="@color/placeholder"
+            app:cardCornerRadius="6dp"
+            android:layout_weight="3"
+            />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_marginEnd="100dp"
+            app:cardBackgroundColor="@color/placeholder"
+            app:cardCornerRadius="6dp"
+            android:layout_marginTop="6dp"
+
+            />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            app:cardBackgroundColor="@color/placeholder"
+            app:cardCornerRadius="6dp"
+            android:layout_marginEnd="200dp"
+            android:layout_marginTop="6dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

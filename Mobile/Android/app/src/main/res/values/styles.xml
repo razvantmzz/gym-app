@@ -1,0 +1,102 @@
+<resources>
+
+    <!-- Base application theme. -->
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--        <item name="android:windowSoftInputMode">stateHidden</item>-->
+<!--    </style> -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowSoftInputMode">stateHidden</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="statusBarBackground">@color/om_background</item>
+        <item name="android:statusBarColor">@color/om_background</item>
+        <item name="materialCalendarStyle">@style/Widget.MaterialComponents.MaterialCalendar</item>
+        <item name="materialCalendarFullscreenTheme">@style/CustomThemeOverlay_MaterialCalendar_Fullscreen</item>
+        <item name="materialCalendarTheme">@style/ThemeOverlay.MaterialComponents.MaterialCalendar</item>
+    </style>
+
+    <style name="CustomThemeOverlay_MaterialCalendar_Fullscreen"
+        parent="@style/ThemeOverlay.MaterialComponents.MaterialCalendar.Fullscreen">
+        <item name="materialCalendarStyle">@style/Custom_MaterialCalendar.Fullscreen</item>
+    </style>
+
+    <style name="Custom_MaterialCalendar.Fullscreen"
+        parent="@style/Widget.MaterialComponents.MaterialCalendar.Fullscreen">
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+
+    <style name="PrimaryButton" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/button_round_corners</item>
+        <item name="android:textColor">@color/om_white</item>
+    </style>
+
+    <style name="SecondaryButton" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/secondary_button_background</item>
+        <item name="android:textColor">@color/om_black</item>
+        <item name="cornerRadius">@dimen/corner_radius</item>
+    </style>
+
+    <style name="SecondaryToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/om_light_gray</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <style name="PrimaryToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/om_white</item>
+    </style>
+
+    <style name="SecondaryBackground" parent="@android:style/Widget">
+        <item name="android:background">@color/om_light_gray</item>
+    </style>
+
+    <style name="PrimaryImageBtn" parent="Widget.AppCompat.ImageButton">
+        <item name="android:tint">@color/om_black</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="PrimaryImage">
+        <item name="android:tint">@color/om_black</item>
+    </style>
+
+    <style name="PrimaryHeader">
+        <item name="android:fontFamily">@font/ramabhadra_regular</item>
+        <item name="android:textColor">@color/om_black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="PrimaryDetails">
+        <item name="android:fontFamily">@font/sarala_regular</item>
+        <item name="android:textColor">@color/om_black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="FilterEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/om_medium_gray</item>
+    </style>
+
+    <style name="BottomBorderEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/bottom_border</item>
+        <item name="android:textColor">@color/om_black</item>
+        <item name="android:layout_height">58dp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="FilterBackground">
+        <item name="android:background">@drawable/background_search_bar</item>
+    </style>
+
+    <style name="FilterImage">
+        <item name="android:tint">@color/om_medium_gray</item>
+    </style>
+
+</resources>

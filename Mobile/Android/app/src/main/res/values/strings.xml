@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">OneMove</string>
+    <string name="title_routes">Topo</string>
+    <string name="title_ranks">Ranks</string>
+    <string name="title_events">Events</string>
+    <string name="title_profile">My Profile</string>
+    <string name="title_register">Register</string>
+    <string name="title_boulder">Boulder</string>
+    <string name="title_lead">Lead</string>
+    <string name="title_add_problem">New Problem</string>
+    <string name="title_edit_problem">Edit Problem</string>
+    <string name="title_add_photo">Mark hold</string>
+    <string name="title_select_item">Select item</string>
+    <string name="title_feedback">Send Feedback</string>
+    <string name="title_add_event">Add Event</string>
+    <string name="sentDialogTitle">%1$s - %2$s</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+    <string name="log_out">Log out</string>
+
+    <string name="name">Name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="category_name">Category</string>
+    <string name="gender">Gender</string>
+    <string name="subscription_number">Subscription number</string>
+    <string name="setter">Setter</string>
+    <string name="routeType">Type</string>
+    <string name="location">Location</string>
+    <string name="index">Index</string>
+    <string name="date">Date</string>
+    <string name="holdsColor">Holds Color</string>
+    <string name="grade">Grade</string>
+    <string name="save">Save</string>
+    <string name="markPreviewHold">Mark Preview Hold</string>
+    <string name="tapToMarkPreviewHold">Tap to mark a preview hold</string>
+    <string name="tapToMarkPreviewHoldDetails">The marked zone will apear in the route listing on the main screen</string>
+    <string name="boulder">Boulder</string>
+    <string name="lead">Lead</string>
+    <string name="give_feedback">Give Us Feedback!</string>
+    <string name="sent_it">Sent it!</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="addTitle">Add Title</string>
+    <string name="allDay">All-day</string>
+    <string name="schedule">Schedule</string>
+    <string name="price">Price</string>
+    <string name="formLink">Form Link</string>
+    <string name="rules">Rules</string>
+    <string name="uploadPhoto">Upload photo</string>
+    <string name="details">Details</string>
+    <string name="standardFee">Standard fee</string>
+    <string name="whatWillHappen">What will happen?</string>
+    <string name="addPrice">Add Price</string>
+
+    <string name="addRegistrationForm">Add registration form link (Google form)</string>
+    <string name="addDescription">Add description</string>
+    <string name="description">Description</string>
+    <string name="addRules">Write some rules</string>
+    <string name="uploadCoverPhoto">Upload cover photo</string>
+
+
+    <string name="cancel">Cancel</string>
+
+    <string name="startTime">Start Time</string>
+    <string name="endTime">End Time</string>
+
+    <string name="set_by_name">Set by %1$s</string>
+    <string name="nr_likes">%1$d likes</string>
+
+    <string name="numberOfTries">{0,choice,0#Not Sent|1#Flash|1&lt;{0} tries|99#Project}</string>
+    <string name="howManyAttempts">How many tries?</string>
+    <string name="whatGrade">What grade would you give it?</string>
+
+    <string name="gender_format">{0,choice,-1#Not Set|0#Male|1#Female}</string>
+    <string name="category">{0,choice,0#Not Set|1#Rookie|2#Master|10#Rookie Male|11#Rookie Female|20#Masters Male|21#Masters Female|}</string>
+    <string name="rank_position">{0,choice,1#st|2#nd|2&lt;{0}th}</string>
+    <string name="rank_points">%1$d pct</string>
+
+    <string name="search_hint">Search problem, setter or grade</string>
+    <string name="account_created">Account created with \n success!</string>
+
+    <string name="feedback_email">From: %1$s</string>
+    <string name="feedback_message_placeholder">Leave product feedback or share your ideas</string>
+
+    <string name="success_add_problem">Problem was added with success!</string>
+    <string name="success_added_to_favorite">Added to favorite!</string>
+    <string name="success_removed_from_favorite">Removed from favorite!</string>
+    <string name="success_account_created">Registered Successfully!</string>
+    <string name="success_sign_in">Sign in successful!</string>
+    <string name="success_edit_profile">Profile updated with success!</string>
+    <string name="success_edit_problem">Changes saved!</string>
+    <string name="success_submit_feedback">Feedback submitted! Thank you for you help!</string>
+    <string name="success_marked_as_sent">Congratulation!</string>
+
+
+    <string name="error_length">%1$s cannot be empty</string>
+    <string name="error_invalid_email">Email is not valid</string>
+    <string name="error_min_length">%1$s must be longer than %2$d characters</string>
+    <string name="error_server">An error occurred</string>
+    <string name="error_no_photo">Please take a photo</string>
+    <string name="error_no_preview_photo">Photo was not marked, tap on the photo to mark a zone</string>
+    <string name="error_invalid_date">Invalid date</string>
+    <string name="error_color_not_selected">Color not selected</string>
+    <string name="error_grade_not_selected">Grade not selected</string>
+    <string name="error_setter_not_selected">Please select a setter</string>
+    <string name="error_index_not_set">Index can\'t be empty</string>
+    <string name="error_invalid_name">Invalid name</string>
+    <string name="error_route_not_found">Route not found!</string>
+    <string name="error_user_not_found">User not found!</string>
+    <string name="error_invalid_inputs">Invalid inputs!</string>
+    <string name="error_invalid_credentials">Username or password incorrect!</string>
+    <string name="error_an_error_occurred">An error occurred</string>
+    <string name="error_email_already_taken">Email already taken</string>
+
+    <!-- Validations -->
+    <string name="validation_email">%1$s is not a valid email address</string>
+    <string name="validation_min_max_length">%1$s length should be between %2$d and %3$d"</string>
+    <string name="validation_min_length">%1$s length should be at least %2$d "</string>
+    <string name="validation_same_as">%1$s and %2$s don\'t match"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="lorem_ipsum_medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium libero est, nec feugiat massa sagittis vitae. Vestibulum sit amet vestibulum eros, ut ultricies eros. Mauris est enim, posuere vitae consequat id, pulvinar sed leo. Suspendisse rhoncus nulla eget ligula sodales, non auctor lorem condimentum. Cras non augue blandit, gravida diam ut, commodo orci. Nullam commodo elit eget magna iaculis, non fermentum dui imperdiet. Sed consequat sem lacus, ac pretium leo malesuada id. Praesent vitae nulla sed ante ullamcorper varius. Phasellus ullamcorper elementum dui, vel lacinia massa maximus et. Ut in iaculis ex, in suscipit lacus. </string>
+
+</resources>

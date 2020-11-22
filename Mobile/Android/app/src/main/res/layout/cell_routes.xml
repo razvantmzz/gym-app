@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerEffect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/placholder_cell_layout"/>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <RelativeLayout
+        android:id="@+id/cellContainer"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="8dp">
+
+        <LinearLayout
+            android:id="@+id/ll_header_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp">
+            <RelativeLayout
+                android:id="@+id/v_cell_route_image_container"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:padding="3dp">
+                <ImageView
+                    android:id="@+id/iv_cell_route_holds"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_logo"/>
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/tv_cell_route_index"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:visibility="gone"
+                android:textSize="12sp"
+                android:textAlignment="center"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="68dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_cell_routes_info_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toEndOf="@id/ll_header_container"
+            android:layout_toStartOf="@id/iv_cell_routes_location">
+            <TextView
+                android:id="@+id/tv_cell_routes_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Moartea pasiunii"
+                android:lines="1"
+                android:textColor="@color/om_black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_cell_routes_setter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:text="Set by: Andy"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_cell_routes_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:text="Set MAR 23 2020"
+                android:textSize="10sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ToggleButton
+                    android:id="@+id/btn_cell_routes_fav"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:background="@drawable/button_favorite"
+                    android:text=""
+                    android:textOff=""
+                    android:textOn="" />
+
+                <TextView
+                    android:id="@+id/tv_cell_routes_likes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3 likes"
+                    android:textColor="@color/om_black" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_cell_routes_location"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toStartOf="@id/ll_cell_routes_grade_container"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="12dp"
+            android:layout_centerVertical="true"/>
+        <LinearLayout
+        android:id="@+id/ll_cell_routes_grade_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:minWidth="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/tv_cell_routes_grade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ramabhadra_regular"
+            android:text="7A+"
+            android:textAlignment="center"
+            android:textColor="@color/om_black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_cell_routes_number_tries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ramabhadra_regular"
+            android:text="Flash"
+            android:textAlignment="center"
+            android:textColor="@color/om_black"
+            android:textSize="12sp" />
+    </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

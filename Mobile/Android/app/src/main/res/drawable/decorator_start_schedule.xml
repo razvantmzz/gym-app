@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_schedule_startsvg"
+    android:scaleGravity="start"
+    android:level="@android:integer/config_longAnimTime"
+    android:scaleHeight="40%"
+    android:scaleWidth="90%" />

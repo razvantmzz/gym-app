@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#23A0DA</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">@color/om_black</color>
+
+    <color name="om_light_gray">#D9D9D9</color>
+    <color name="om_medium_gray">#929292</color>
+    <color name="om_blue">#23A0DA</color>
+    <color name="om_white">#FFFFFF</color>
+    <color name="om_black">#000000</color>
+    <color name="om_green">#2BB24C</color>
+    <color name="om_red">#ed4060</color>
+    <color name="om_extra_light_gray">#F8F8F8</color>
+
+    <color name="om_primary_buton">@color/om_blue</color>
+    <color name="om_image_resource">#000000</color>
+    <color name="om_background">@color/om_light_gray</color>
+    <color name="om_sec_background">@color/om_white</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="edit_text_error">#ed4060</color>
+    <color name="cancel">#ed4060</color>
+    <color name="util_buttons_text">@color/om_black</color>
+    <color name="edit_text_normal">@color/om_black</color>
+    <color name="selected_item">@color/om_blue</color>
+    <color name="add_profile_icon">@color/om_green</color>
+    <color name="table_decorations_active">@color/om_medium_gray</color>
+    <color name="table_decorations_inactive">@color/om_light_gray</color>
+
+    <color name="placeholder">@color/om_light_gray</color>
+
+
+    <!--    <color name="om_extra_light_gray">#23A0DA</color>-->
+
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_border"
+    android:padding="12dp">
+    
+    <ImageView
+        android:id="@+id/eventIv"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="fitXY"
+        android:src="@color/om_light_gray"
+        />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:layout_below="@id/eventIv">
+
+        <TextView
+            android:id="@+id/monthTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="6dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/om_red"
+            android:text="IUN_"/>
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PrimaryHeader"
+            android:layout_marginStart="10dp"
+            android:layout_columnSpan="3"
+            android:text="One_Move_Climbing_festival"/>
+        <TextView
+            android:id="@+id/dayTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_columnSpan="1"
+            android:textAlignment="center"
+            android:text="1"/>
+
+        <ImageView
+            android:id="@+id/timeIv"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginStart="10dp"
+            android:tint="@color/om_image_resource"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_timelapse_black_24dp"
+            />
+        <TextView
+            android:id="@+id/eventTimeTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:textAlignment="gravity"
+            android:layout_marginStart="4dp"
+            android:layout_gravity="center_vertical"
+            android:text="15:00 - 20:00_"/>
+        <TextView
+            android:id="@+id/statusTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textAlignment="gravity"
+            android:layout_gravity="center_vertical"
+            android:text="Comming soon"/>
+    </GridLayout>
+
+</RelativeLayout>

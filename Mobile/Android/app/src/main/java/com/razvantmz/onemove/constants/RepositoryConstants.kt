@@ -1,0 +1,31 @@
+package com.razvantmz.onemove.constants
+
+object RepositoryConstants {
+    const val UserId:String = "userId"
+    const val EventId:String = "eventId"
+    const val User:String = "user"
+    const val UserType:String = "userType"
+    const val RouteId:String = "routeId"
+    const val RouteType:String = "routeType"
+    const val IsFavorite:String = "isFavorite"
+    const val FirstName:String = "first_name"
+    const val LastName:String = "last_name"
+    const val Email:String = "email"
+    const val Password:String = "password"
+    const val RegisterPassword:String = "password1"
+    const val ConfirmPassword:String = "password2"
+    const val SubscriptionNumber:String = "subscription_number"
+    const val ImageUrl:String = "image_url"
+    const val CoverPhoto:String = "cover_photo_url"
+    const val Gender:String = "gender"
+    const val Category:String = "category"
+    const val ProfilePicture:String = "profile_picture"
+    const val Message:String = "message"
+    const val Date:String = "dateIso"
+    const val Grade:String = "grade"
+    const val Attempt:String = "attempt"
+    const val SerializedEvent:String = "serialisedEvent"
+
+    const val UserProfileImageName:String = "profileImg"
+    const val EventCoverPhoto:String = "eventCoverImg"
+}

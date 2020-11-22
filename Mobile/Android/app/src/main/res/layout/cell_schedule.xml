@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/scheduleHeaderTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/removeScheduleIv"
+            android:text="WE,_6_May"
+            android:padding="6dp"
+            android:textColor="@color/om_medium_gray"
+            style="@style/PrimaryHeader"/>
+        <ImageView
+            android:id="@+id/removeScheduleIv"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:tint="@color/om_image_resource"
+            android:src="@drawable/ic_remove"
+            android:visibility="invisible"
+            android:layout_margin="6dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/scheduleEntryRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="false"
+        />
+
+</LinearLayout>

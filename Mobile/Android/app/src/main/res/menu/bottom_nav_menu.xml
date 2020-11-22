@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_routes"
+        android:icon="@drawable/ic_route"
+        android:title="@string/title_routes" />
+
+    <item
+        android:id="@+id/navigation_ranks"
+        android:icon="@drawable/ic_cup"
+        android:title="@string/title_events" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/title_profile" />
+
+</menu>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="55dp"
+    android:layout_height="55dp">
+    <TextView
+        android:id="@+id/tv_cell_grade_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/PrimaryHeader"
+        android:textSize="20sp"
+        android:text="8B+"
+        android:textAlignment="center"
+        />
+    <View
+        android:id="@+id/v_cell_grade_color"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_below="@id/tv_cell_grade_text"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
